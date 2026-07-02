@@ -12,12 +12,11 @@ import {
 } from "recharts";
 import { Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { DOMAIN_COLORS, DOMAIN_ORDER, useLang, useT } from "@/lib/i18n";
+import { DOMAIN_COLORS, DOMAIN_ORDER, useT } from "@/lib/i18n";
 import { buildAnnualReport, hasReportData } from "@/lib/dpdu-store";
 
 export function AnnualReport() {
   const t = useT();
-  const { lang } = useLang();
   const [show, setShow] = useState(false);
   const chartRef = useRef<HTMLDivElement>(null);
 
