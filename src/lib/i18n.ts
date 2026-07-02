@@ -12,13 +12,15 @@ export type DomainKey =
   | "creation_expression"
   | "esprit_connaissance"
   | "sciences_technique"
-  | "corps_exploration";
+  | "corps_exploration"
+  | "love_sex";
 
 export const DOMAIN_ORDER: DomainKey[] = [
   "creation_expression",
   "esprit_connaissance",
   "sciences_technique",
   "corps_exploration",
+  "love_sex",
 ];
 
 export const DOMAIN_COLORS: Record<DomainKey, string> = {
@@ -26,6 +28,7 @@ export const DOMAIN_COLORS: Record<DomainKey, string> = {
   esprit_connaissance: "#9b8fd6",
   sciences_technique: "#8fb4e5",
   corps_exploration: "#8fca9e",
+  love_sex: "#e0757f",
 };
 
 type Dict = {
@@ -96,6 +99,7 @@ export const T: Record<Lang, Dict> = {
       esprit_connaissance: "Esprit & Connaissance",
       sciences_technique: "Sciences & Technique",
       corps_exploration: "Corps & Exploration",
+      love_sex: "Love & Sex",
     },
     months: ["Jan", "Fév", "Mar", "Avr", "Mai", "Juin", "Juil", "Août", "Sep", "Oct", "Nov", "Déc"],
   },
@@ -133,6 +137,7 @@ export const T: Record<Lang, Dict> = {
       esprit_connaissance: "Mind & Knowledge",
       sciences_technique: "Science & Technique",
       corps_exploration: "Body & Exploration",
+      love_sex: "Love & Sex",
     },
     months: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
   },
@@ -170,6 +175,7 @@ export const T: Record<Lang, Dict> = {
       esprit_connaissance: "心智与知识",
       sciences_technique: "科学与技术",
       corps_exploration: "身体与探索",
+      love_sex: "爱与性",
     },
     months: ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"],
   },
