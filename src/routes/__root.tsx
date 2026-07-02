@@ -77,11 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Dies primus dies ultimus — une activité par jour" },
+      {
+        name: "description",
+        content:
+          "Une seule activité par jour, tirée d'un pool de 400 idées, comme si c'était le premier et le dernier jour. Historique, cooldown et rapport annuel.",
+      },
+      { name: "author", content: "Dies primus dies ultimus" },
+      { property: "og:title", content: "Dies primus dies ultimus" },
+      {
+        property: "og:description",
+        content: "Une activité par jour parmi 400 idées. Minimaliste, multilingue, hors-ligne.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
