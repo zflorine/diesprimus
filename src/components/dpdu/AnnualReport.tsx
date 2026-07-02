@@ -53,17 +53,20 @@ export function AnnualReport() {
         </div>
       ) : (
         <>
-          <div ref={chartRef} className="mt-8 bg-white p-4">
-            <p className="mb-4 text-center text-[11px] uppercase tracking-[0.3em] text-muted-foreground">
+          <div ref={chartRef} className="mt-8 bg-white px-4 pt-4 pb-12">
+            <p className="mb-2 text-center font-display text-2xl uppercase tracking-[0.15em] text-foreground">
+              {t.appTitle}
+            </p>
+            <p className="mb-6 text-center text-[11px] uppercase tracking-[0.3em] text-muted-foreground">
               {t.reportYAxis}
             </p>
             <ResponsiveContainer width="100%" height={360}>
-              <LineChart data={data} margin={{ top: 8, right: 16, bottom: 8, left: -16 }}>
+              <LineChart data={data} margin={{ top: 8, right: 16, bottom: 32, left: -16 }}>
                 <CartesianGrid stroke="#eee" vertical={false} />
                 <XAxis dataKey="label" tick={{ fontSize: 12, fill: "#6b7280" }} tickLine={false} axisLine={{ stroke: "#e5e7eb" }} />
                 <YAxis allowDecimals={false} tick={{ fontSize: 12, fill: "#6b7280" }} tickLine={false} axisLine={false} />
                 <Tooltip />
-                <Legend wrapperStyle={{ fontSize: 12 }} />
+                <Legend wrapperStyle={{ fontSize: 12, paddingTop: 12 }} />
                 {DOMAIN_ORDER.map((dom) => (
                   <Line
                     key={dom}
