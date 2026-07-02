@@ -27,6 +27,13 @@ import { ChoiceStep } from "@/components/dpdu/ChoiceStep";
 import { ActionStep } from "@/components/dpdu/ActionStep";
 import { HistoryView } from "@/components/dpdu/HistoryView";
 import { AnnualReport } from "@/components/dpdu/AnnualReport";
+import { Menu } from "lucide-react";
+import {
+  Sheet,
+  SheetContent,
+  SheetTrigger,
+} from "@/components/ui/sheet";
+import { Separator } from "@/components/ui/separator";
 import { cn } from "@/lib/utils";
 
 export const Route = createFileRoute("/")({
@@ -65,6 +72,7 @@ function App() {
   const { lang } = useLang();
   const [mounted, setMounted] = useState(false);
   const [tab, setTab] = useState<Tab>("today");
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const [date, setDate] = useState(todayISO());
   const [step, setStep] = useState<Step>("date");
@@ -144,6 +152,10 @@ function App() {
     return <div className="min-h-screen bg-background" />;
   }
 
+  const tabs: Tab[] = ["today", "history", "report"];
+  const tabLabel = (tb: Tab) =>
+    tb === "today" ? t.navToday : tb === "history" ? t.navHistory : t.navReport;
+
   return (
     <div className="min-h-screen bg-background font-sans text-foreground">
       <header className="flex items-center justify-between border-b border-foreground/10 px-6 py-4">
@@ -153,9 +165,10 @@ function App() {
         >
           {t.appTitle}
         </button>
-        <div className="flex items-center gap-6">
+        {/* Desktop nav */}
+        <div className="hidden items-center gap-4 md:flex">
           <nav className="flex items-center gap-4 text-xs uppercase tracking-[0.18em]">
-            {(["today", "history", "report"] as Tab[]).map((tb) => (
+            {tabs.map((tb) => (
               <button
                 key={tb}
                 onClick={() => setTab(tb)}
@@ -164,11 +177,40 @@ function App() {
                   tab === tb ? "text-foreground" : "text-muted-foreground hover:text-foreground",
                 )}
               >
-                {tb === "today" ? t.navToday : tb === "history" ? t.navHistory : t.navReport}
+                {tabLabel(tb)}
               </button>
             ))}
           </nav>
+          <Separator orientation="vertical" className="h-4" />
           <LangSwitcher />
+        </div>
+        {/* Mobile burger */}
+        <div className="flex items-center gap-4 md:hidden">
+          <LangSwitcher />
+          <Sheet open={menuOpen} onOpenChange={setMenuOpen}>
+            <SheetTrigger aria-label="Menu" className="text-foreground">
+              <Menu className="h-5 w-5" />
+            </SheetTrigger>
+            <SheetContent side="right" className="w-64">
+              <nav className="mt-8 flex flex-col gap-6 text-sm uppercase tracking-[0.18em]">
+                {tabs.map((tb) => (
+                  <button
+                    key={tb}
+                    onClick={() => {
+                      setTab(tb);
+                      setMenuOpen(false);
+                    }}
+                    className={cn(
+                      "text-left transition-colors",
+                      tab === tb ? "text-foreground" : "text-muted-foreground hover:text-foreground",
+                    )}
+                  >
+                    {tabLabel(tb)}
+                  </button>
+                ))}
+              </nav>
+            </SheetContent>
+          </Sheet>
         </div>
       </header>
 
