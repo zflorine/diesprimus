@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { toPng } from "html-to-image";
 import {
   CartesianGrid,
@@ -12,15 +12,25 @@ import {
 } from "recharts";
 import { Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { DOMAIN_COLORS, DOMAIN_ORDER, useT } from "@/lib/i18n";
-import { buildAnnualReport, hasReportData } from "@/lib/dpdu-store";
+import { buildAnnualReport, getReportYears, hasReportData } from "@/lib/dpdu-store";
 
 export function AnnualReport() {
   const t = useT();
-  const [show, setShow] = useState(false);
   const chartRef = useRef<HTMLDivElement>(null);
 
-  const data = buildAnnualReport().map((row) => ({
+  const years = useMemo(() => getReportYears(), []);
+  const hasData = hasReportData();
+  const [year, setYear] = useState<number>(years[0] ?? new Date().getFullYear());
+
+  const data = buildAnnualReport(year).map((row) => ({
     ...row,
     label: t.months[row.month as number],
   }));
@@ -29,28 +39,33 @@ export function AnnualReport() {
     if (!chartRef.current) return;
     const dataUrl = await toPng(chartRef.current, { backgroundColor: "#ffffff", pixelRatio: 2 });
     const link = document.createElement("a");
-    link.download = "dpdu-rapport-annuel.png";
+    link.download = `dpdu-rapport-annuel-${year}.png`;
     link.href = dataUrl;
     link.click();
   };
 
   return (
     <div className="mx-auto max-w-3xl px-6 py-12">
-      <h2 className="font-serif text-3xl text-foreground">{t.reportTitle}</h2>
+      <div className="flex flex-wrap items-center justify-between gap-4">
+        <h2 className="font-serif text-3xl text-foreground">{t.reportTitle}</h2>
+        {hasData && years.length > 1 && (
+          <Select value={String(year)} onValueChange={(v) => setYear(Number(v))}>
+            <SelectTrigger className="w-32 rounded-none">
+              <SelectValue placeholder={t.selectYear} />
+            </SelectTrigger>
+            <SelectContent>
+              {years.map((y) => (
+                <SelectItem key={y} value={String(y)}>
+                  {y}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        )}
+      </div>
 
-      {!show ? (
-        <div className="mt-8">
-          {hasReportData() ? (
-            <Button
-              className="rounded-none bg-foreground text-background hover:bg-foreground/90"
-              onClick={() => setShow(true)}
-            >
-              {t.generateReport}
-            </Button>
-          ) : (
-            <p className="text-sm text-muted-foreground">{t.reportEmpty}</p>
-          )}
-        </div>
+      {!hasData ? (
+        <p className="mt-8 text-sm text-muted-foreground">{t.reportEmpty}</p>
       ) : (
         <>
           <div ref={chartRef} className="mt-8 bg-white px-4 pt-4 pb-12">
@@ -58,7 +73,7 @@ export function AnnualReport() {
               {t.appTitle}
             </p>
             <p className="mb-6 text-center text-[11px] uppercase tracking-[0.3em] text-muted-foreground">
-              {t.reportYAxis}
+              {t.reportYAxis} · {year}
             </p>
             <ResponsiveContainer width="100%" height={360}>
               <LineChart data={data} margin={{ top: 8, right: 16, bottom: 32, left: -16 }}>
