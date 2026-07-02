@@ -142,29 +142,30 @@ export function todayISO(): string {
   return new Date(d.getTime() - off * 60000).toISOString().slice(0, 10);
 }
 
-/** Count of "done" activities per domain per month for the last 12 months. */
-export function buildAnnualReport() {
-  const history = getHistory().filter((e) => e.status === "done");
-  const now = new Date();
-  const buckets: { key: string; year: number; month: number }[] = [];
-  for (let i = 11; i >= 0; i--) {
-    const d = new Date(now.getFullYear(), now.getMonth() - i, 1);
-    buckets.push({ key: `${d.getFullYear()}-${d.getMonth()}`, year: d.getFullYear(), month: d.getMonth() });
+/** Years (desc) that contain at least one "done" activity. */
+export function getReportYears(): number[] {
+  const years = new Set<number>();
+  for (const e of getHistory()) {
+    if (e.status === "done") years.add(new Date(e.date + "T00:00:00").getFullYear());
   }
+  return [...years].sort((a, b) => b - a);
+}
 
-  const rows = buckets.map((b) => {
-    const row: Record<string, number | string> = { month: b.month, year: b.year };
+/** Count of "done" activities per domain per month (Jan–Dec) for a given calendar year. */
+export function buildAnnualReport(year?: number) {
+  const target = year ?? new Date().getFullYear();
+  const history = getHistory().filter((e) => e.status === "done");
+
+  const rows = Array.from({ length: 12 }, (_, month) => {
+    const row: Record<string, number | string> = { month, year: target };
     for (const dom of DOMAIN_ORDER) row[dom] = 0;
     return row;
   });
 
   for (const e of history) {
     const d = new Date(e.date + "T00:00:00");
-    const key = `${d.getFullYear()}-${d.getMonth()}`;
-    const idx = buckets.findIndex((b) => b.key === key);
-    if (idx >= 0) {
-      rows[idx][e.domaine] = (rows[idx][e.domaine] as number) + 1;
-    }
+    if (d.getFullYear() !== target) continue;
+    rows[d.getMonth()][e.domaine] = (rows[d.getMonth()][e.domaine] as number) + 1;
   }
   return rows;
 }
