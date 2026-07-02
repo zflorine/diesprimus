@@ -2,6 +2,8 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
 import "@fontsource/fraunces/400.css";
 import "@fontsource/fraunces/500.css";
+import "@fontsource/cinzel/500.css";
+import "@fontsource/cinzel/600.css";
 import "@fontsource/inter/400.css";
 import "@fontsource/inter/500.css";
 import "@fontsource/noto-sans-sc/400.css";
@@ -147,7 +149,7 @@ function App() {
       <header className="flex items-center justify-between border-b border-foreground/10 px-6 py-4">
         <button
           onClick={() => setTab("today")}
-          className="font-serif text-sm tracking-wide text-foreground"
+          className="font-display uppercase text-sm tracking-[0.15em] text-foreground"
         >
           {t.appTitle}
         </button>
