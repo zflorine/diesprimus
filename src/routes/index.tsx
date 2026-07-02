@@ -7,7 +7,7 @@ import "@fontsource/inter/500.css";
 import "@fontsource/noto-sans-sc/400.css";
 import "@fontsource/noto-sans-sc/500.css";
 
-import { LangContext, type Lang, useT } from "@/lib/i18n";
+import { LangContext, type Lang, useLang, useT } from "@/lib/i18n";
 import {
   type Activity,
   type HistoryEntry,
@@ -60,6 +60,7 @@ function Index() {
 
 function App() {
   const t = useT();
+  const { lang } = useLang();
   const [mounted, setMounted] = useState(false);
   const [tab, setTab] = useState<Tab>("today");
 
@@ -74,15 +75,14 @@ function App() {
 
   const dateLabel = useMemo(() => {
     const d = new Date(date + "T00:00:00");
-    const locale = t.months === undefined ? "en-US" : undefined;
-    void locale;
-    return d.toLocaleDateString(
-      { fr: "fr-FR", en: "en-US", zh: "zh-CN" }[
-        (localStorage.getItem(LANG_KEY) as Lang) || "fr"
-      ] || "fr-FR",
-      { weekday: "long", day: "numeric", month: "long", year: "numeric" },
-    );
-  }, [date, t]);
+    const locale = { fr: "fr-FR", en: "en-US", zh: "zh-CN" }[lang];
+    return d.toLocaleDateString(locale, {
+      weekday: "long",
+      day: "numeric",
+      month: "long",
+      year: "numeric",
+    });
+  }, [date, lang]);
 
   const openDay = (iso: string) => {
     setDate(iso);
