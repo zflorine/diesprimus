@@ -5601,7 +5601,1406 @@ export const activitiesData = [
       "en": "Walk while naming 10 things you notice.",
       "zh": "边走边说出你注意到的10样东西。"
     }
+  },
+
+  {
+    "id": "ls-001",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Écrire une lettre d'amour",
+      "en": "Write a love letter",
+      "zh": "写一封情书"
+    },
+    "tutoriel": {
+      "fr": "Écris une lettre sincère à la personne aimée et donne-la aujourd'hui.",
+      "en": "Write a sincere letter to the one you love and give it today.",
+      "zh": "给你所爱的人写一封真挚的信，今天送出。"
+    }
+  },
+  {
+    "id": "ls-002",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Offrir un massage",
+      "en": "Give a massage",
+      "zh": "送上一次按摩"
+    },
+    "tutoriel": {
+      "fr": "Propose un massage de 15 minutes, sans attente de réciprocité.",
+      "en": "Offer a 15-minute massage with no expectation in return.",
+      "zh": "主动提供15分钟的按摩，不求回报。"
+    }
+  },
+  {
+    "id": "ls-003",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Rendez-vous surprise",
+      "en": "Plan a surprise date",
+      "zh": "策划惊喜约会"
+    },
+    "tutoriel": {
+      "fr": "Organise une sortie surprise adaptée aux goûts de l'autre.",
+      "en": "Set up a surprise outing tailored to their tastes.",
+      "zh": "按对方的喜好安排一次惊喜出游。"
+    }
+  },
+  {
+    "id": "ls-004",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Dîner aux chandelles",
+      "en": "Candlelit dinner",
+      "zh": "烛光晚餐"
+    },
+    "tutoriel": {
+      "fr": "Prépare un repas simple à la lueur des bougies.",
+      "en": "Cook a simple meal by candlelight.",
+      "zh": "在烛光下准备一顿简单的晚餐。"
+    }
+  },
+  {
+    "id": "ls-005",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Liste des qualités aimées",
+      "en": "List what you love",
+      "zh": "列出爱的理由"
+    },
+    "tutoriel": {
+      "fr": "Note dix qualités que tu admires chez l'autre et lis-les à voix haute.",
+      "en": "Write ten qualities you admire and read them aloud.",
+      "zh": "写下你欣赏对方的十个特质，并大声读出来。"
+    }
+  },
+  {
+    "id": "ls-006",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Danser ensemble",
+      "en": "Dance together",
+      "zh": "一起跳舞"
+    },
+    "tutoriel": {
+      "fr": "Mets une chanson et dansez une slow, front contre front.",
+      "en": "Put on a song and slow dance, forehead to forehead.",
+      "zh": "放一首歌，额头相贴，共跳一支慢舞。"
+    }
+  },
+  {
+    "id": "ls-007",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Bain à deux",
+      "en": "Bath for two",
+      "zh": "双人泡澡"
+    },
+    "tutoriel": {
+      "fr": "Préparez un bain chaud avec bougies et détente partagée.",
+      "en": "Draw a warm bath with candles and unwind together.",
+      "zh": "放一缸热水，点上蜡烛，一起放松。"
+    }
+  },
+  {
+    "id": "ls-008",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Confidence intime",
+      "en": "Share a secret",
+      "zh": "分享一个秘密"
+    },
+    "tutoriel": {
+      "fr": "Partage un fantasme ou un désir jamais dit.",
+      "en": "Share a fantasy or desire you've never voiced.",
+      "zh": "分享一个从未说出口的幻想或渴望。"
+    }
+  },
+  {
+    "id": "ls-009",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Baiser prolongé",
+      "en": "A long kiss",
+      "zh": "一个长吻"
+    },
+    "tutoriel": {
+      "fr": "Embrassez-vous pendant une minute entière, sans autre but.",
+      "en": "Kiss for a full minute with no other goal.",
+      "zh": "专注地接吻整整一分钟，别无所求。"
+    }
+  },
+  {
+    "id": "ls-010",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Réveil tendre",
+      "en": "Tender wake-up",
+      "zh": "温柔的唤醒"
+    },
+    "tutoriel": {
+      "fr": "Réveille l'autre par une caresse plutôt qu'une alarme.",
+      "en": "Wake them with a caress instead of an alarm.",
+      "zh": "用爱抚而非闹钟叫醒对方。"
+    }
+  },
+  {
+    "id": "ls-011",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Playlist romantique",
+      "en": "Romantic playlist",
+      "zh": "浪漫歌单"
+    },
+    "tutoriel": {
+      "fr": "Crée une playlist de vos chansons et écoutez-la ensemble.",
+      "en": "Build a playlist of your songs and listen together.",
+      "zh": "制作一份你们的歌单，一起聆听。"
+    }
+  },
+  {
+    "id": "ls-012",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Photo souvenir",
+      "en": "A keepsake photo",
+      "zh": "纪念合影"
+    },
+    "tutoriel": {
+      "fr": "Prenez une photo complice à garder précieusement.",
+      "en": "Take a playful photo to treasure.",
+      "zh": "拍一张默契的合影，好好珍藏。"
+    }
+  },
+  {
+    "id": "ls-013",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Cuisiner en duo",
+      "en": "Cook as a duo",
+      "zh": "二人下厨"
+    },
+    "tutoriel": {
+      "fr": "Préparez une recette à quatre mains.",
+      "en": "Cook one recipe together, four hands.",
+      "zh": "四手齐下，一起完成一道菜。"
+    }
+  },
+  {
+    "id": "ls-014",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Compliment sincère",
+      "en": "A sincere compliment",
+      "zh": "真诚的赞美"
+    },
+    "tutoriel": {
+      "fr": "Fais un compliment inattendu et précis aujourd'hui.",
+      "en": "Give an unexpected, specific compliment today.",
+      "zh": "今天送出一句出乎意料且具体的赞美。"
+    }
+  },
+  {
+    "id": "ls-015",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Regard silencieux",
+      "en": "Silent gaze",
+      "zh": "静默对视"
+    },
+    "tutoriel": {
+      "fr": "Regardez-vous dans les yeux pendant deux minutes en silence.",
+      "en": "Hold eye contact in silence for two minutes.",
+      "zh": "静默地凝视彼此的眼睛两分钟。"
+    }
+  },
+  {
+    "id": "ls-016",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Promenade main dans la main",
+      "en": "Hand-in-hand walk",
+      "zh": "牵手散步"
+    },
+    "tutoriel": {
+      "fr": "Marchez trente minutes en vous tenant la main.",
+      "en": "Walk for thirty minutes holding hands.",
+      "zh": "牵着手散步三十分钟。"
+    }
+  },
+  {
+    "id": "ls-017",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Petit mot caché",
+      "en": "Hidden note",
+      "zh": "藏一张便条"
+    },
+    "tutoriel": {
+      "fr": "Cache un mot doux là où l'autre le trouvera.",
+      "en": "Hide a sweet note where they'll find it.",
+      "zh": "把一张甜蜜便条藏在对方会发现的地方。"
+    }
+  },
+  {
+    "id": "ls-018",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Fantasme partagé",
+      "en": "Explore a fantasy",
+      "zh": "探索幻想"
+    },
+    "tutoriel": {
+      "fr": "Choisissez ensemble un scénario à explorer ce soir.",
+      "en": "Pick a scenario to explore together tonight.",
+      "zh": "一起选一个今晚想尝试的情景。"
+    }
+  },
+  {
+    "id": "ls-019",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Petit-déjeuner au lit",
+      "en": "Breakfast in bed",
+      "zh": "床上早餐"
+    },
+    "tutoriel": {
+      "fr": "Sers le petit-déjeuner au lit à ton/ta partenaire.",
+      "en": "Serve your partner breakfast in bed.",
+      "zh": "为伴侣端上一份床上早餐。"
+    }
+  },
+  {
+    "id": "ls-020",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Journée sans téléphone",
+      "en": "Phone-free day",
+      "zh": "无手机的一天"
+    },
+    "tutoriel": {
+      "fr": "Passez une soirée entière sans écrans, juste vous deux.",
+      "en": "Spend a whole evening screen-free, just the two of you.",
+      "zh": "度过一个完全无屏幕的夜晚，只有你们俩。"
+    }
+  },
+  {
+    "id": "ls-021",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Redécouvrir un premier rendez-vous",
+      "en": "Recreate your first date",
+      "zh": "重现初次约会"
+    },
+    "tutoriel": {
+      "fr": "Refaites votre tout premier rendez-vous à l'identique.",
+      "en": "Recreate your very first date step by step.",
+      "zh": "一步步重现你们的第一次约会。"
+    }
+  },
+  {
+    "id": "ls-022",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Écrire vos rêves communs",
+      "en": "Write shared dreams",
+      "zh": "写下共同的梦想"
+    },
+    "tutoriel": {
+      "fr": "Notez trois projets que vous voulez vivre ensemble.",
+      "en": "Write three dreams you want to live together.",
+      "zh": "写下三个你们想一起实现的梦想。"
+    }
+  },
+  {
+    "id": "ls-023",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Séance de câlins",
+      "en": "Cuddle session",
+      "zh": "拥抱时光"
+    },
+    "tutoriel": {
+      "fr": "Restez enlacés dix minutes sans parler.",
+      "en": "Stay wrapped up together for ten silent minutes.",
+      "zh": "相拥十分钟，一言不发。"
+    }
+  },
+  {
+    "id": "ls-024",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Surprise au réveil",
+      "en": "Morning surprise",
+      "zh": "清晨惊喜"
+    },
+    "tutoriel": {
+      "fr": "Laisse une surprise pour le réveil de l'autre.",
+      "en": "Leave a surprise for them to wake up to.",
+      "zh": "为对方的清晨留下一个惊喜。"
+    }
+  },
+  {
+    "id": "ls-025",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Jeu de questions intimes",
+      "en": "Intimate questions",
+      "zh": "亲密问答"
+    },
+    "tutoriel": {
+      "fr": "Posez-vous dix questions profondes à tour de rôle.",
+      "en": "Take turns asking ten deep questions.",
+      "zh": "轮流问对方十个深刻的问题。"
+    }
+  },
+  {
+    "id": "ls-026",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Slow massage des mains",
+      "en": "Slow hand massage",
+      "zh": "慢享手部按摩"
+    },
+    "tutoriel": {
+      "fr": "Massez lentement les mains de l'autre avec une huile.",
+      "en": "Slowly massage their hands with oil.",
+      "zh": "用精油慢慢按摩对方的双手。"
+    }
+  },
+  {
+    "id": "ls-027",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Écrire un souvenir préféré",
+      "en": "Write a favorite memory",
+      "zh": "写下最爱的回忆"
+    },
+    "tutoriel": {
+      "fr": "Racontez par écrit votre plus beau souvenir commun.",
+      "en": "Write down your most beautiful shared memory.",
+      "zh": "写下你们最美好的共同回忆。"
+    }
+  },
+  {
+    "id": "ls-028",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Pique-nique intime",
+      "en": "Intimate picnic",
+      "zh": "私密野餐"
+    },
+    "tutoriel": {
+      "fr": "Organisez un pique-nique rien que pour vous deux.",
+      "en": "Set up a picnic just for the two of you.",
+      "zh": "布置一场只属于你们俩的野餐。"
+    }
+  },
+  {
+    "id": "ls-029",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Bougie et musique douce",
+      "en": "Candle and soft music",
+      "zh": "烛光与轻音乐"
+    },
+    "tutoriel": {
+      "fr": "Créez une ambiance tamisée et détendez-vous ensemble.",
+      "en": "Set a dim, cozy mood and relax together.",
+      "zh": "营造柔和的氛围，一起放松。"
+    }
+  },
+  {
+    "id": "ls-030",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Compliment sur le corps",
+      "en": "Admire their body",
+      "zh": "欣赏对方的身体"
+    },
+    "tutoriel": {
+      "fr": "Dis à l'autre ce que tu préfères dans son corps.",
+      "en": "Tell them what you love most about their body.",
+      "zh": "告诉对方你最喜欢他/她身体的哪一处。"
+    }
+  },
+  {
+    "id": "ls-031",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Baiser dans le cou",
+      "en": "A kiss on the neck",
+      "zh": "颈间之吻"
+    },
+    "tutoriel": {
+      "fr": "Surprends l'autre d'un baiser tendre dans le cou.",
+      "en": "Surprise them with a tender kiss on the neck.",
+      "zh": "在对方颈间送上一个温柔的吻。"
+    }
+  },
+  {
+    "id": "ls-032",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Lettre pour plus tard",
+      "en": "Letter for later",
+      "zh": "写给未来的信"
+    },
+    "tutoriel": {
+      "fr": "Écrivez une lettre à ouvrir dans un an ensemble.",
+      "en": "Write a letter to open together in a year.",
+      "zh": "写一封一年后一起拆开的信。"
+    }
+  },
+  {
+    "id": "ls-033",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Douche partagée",
+      "en": "Shared shower",
+      "zh": "共浴时光"
+    },
+    "tutoriel": {
+      "fr": "Partagez une douche chaude sans hâte.",
+      "en": "Share a warm, unhurried shower.",
+      "zh": "不慌不忙地共享一场温水淋浴。"
+    }
+  },
+  {
+    "id": "ls-034",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Dire je t'aime autrement",
+      "en": "Say I love you anew",
+      "zh": "换种方式说我爱你"
+    },
+    "tutoriel": {
+      "fr": "Exprime ton amour sans utiliser le mot « amour ».",
+      "en": "Express your love without using the word 'love'.",
+      "zh": "不用“爱”字，表达你的爱意。"
+    }
+  },
+  {
+    "id": "ls-035",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Soirée jeux de couple",
+      "en": "Couple's game night",
+      "zh": "二人游戏夜"
+    },
+    "tutoriel": {
+      "fr": "Jouez à un jeu complice, gagnant choisit une faveur.",
+      "en": "Play a playful game; winner picks a favor.",
+      "zh": "玩一个默契小游戏，赢家可提一个请求。"
+    }
+  },
+  {
+    "id": "ls-036",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Écouter vraiment",
+      "en": "Truly listen",
+      "zh": "真正地倾听"
+    },
+    "tutoriel": {
+      "fr": "Laisse l'autre parler dix minutes sans l'interrompre.",
+      "en": "Let them speak ten minutes without interrupting.",
+      "zh": "让对方说十分钟，不打断。"
+    }
+  },
+  {
+    "id": "ls-037",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Réinventer un baiser",
+      "en": "Reinvent a kiss",
+      "zh": "重新发明一个吻"
+    },
+    "tutoriel": {
+      "fr": "Inventez ensemble une nouvelle façon de vous embrasser.",
+      "en": "Invent a brand-new way to kiss together.",
+      "zh": "一起发明一种全新的接吻方式。"
+    }
+  },
+  {
+    "id": "ls-038",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Note de gratitude",
+      "en": "Note of gratitude",
+      "zh": "感恩便条"
+    },
+    "tutoriel": {
+      "fr": "Remercie l'autre pour une chose précise aujourd'hui.",
+      "en": "Thank them for one specific thing today.",
+      "zh": "今天为一件具体的小事谢谢对方。"
+    }
+  },
+  {
+    "id": "ls-039",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Rêver la maison idéale",
+      "en": "Dream your ideal home",
+      "zh": "畅想理想之家"
+    },
+    "tutoriel": {
+      "fr": "Décrivez ensemble la maison de vos rêves.",
+      "en": "Describe your dream home together.",
+      "zh": "一起描绘你们梦想中的家。"
+    }
+  },
+  {
+    "id": "ls-040",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Câlin de vingt secondes",
+      "en": "Twenty-second hug",
+      "zh": "二十秒拥抱"
+    },
+    "tutoriel": {
+      "fr": "Faites un câlin d'au moins vingt secondes.",
+      "en": "Share a hug of at least twenty seconds.",
+      "zh": "来一个至少二十秒的拥抱。"
+    }
+  },
+  {
+    "id": "ls-041",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Masser le dos",
+      "en": "Massage the back",
+      "zh": "按摩后背"
+    },
+    "tutoriel": {
+      "fr": "Offre un massage du dos apaisant de dix minutes.",
+      "en": "Give a soothing ten-minute back massage.",
+      "zh": "送上十分钟舒缓的背部按摩。"
+    }
+  },
+  {
+    "id": "ls-042",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Chuchoter un désir",
+      "en": "Whisper a desire",
+      "zh": "低语一个愿望"
+    },
+    "tutoriel": {
+      "fr": "Chuchote à l'oreille de l'autre ce dont tu as envie.",
+      "en": "Whisper in their ear what you desire.",
+      "zh": "在对方耳边低语你的渴望。"
+    }
+  },
+  {
+    "id": "ls-043",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Créer un rituel du soir",
+      "en": "Create an evening ritual",
+      "zh": "建立夜晚仪式"
+    },
+    "tutoriel": {
+      "fr": "Inventez un petit rituel à répéter chaque soir.",
+      "en": "Invent a small ritual to repeat each night.",
+      "zh": "创造一个每晚重复的小仪式。"
+    }
+  },
+  {
+    "id": "ls-044",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Dessiner l'autre",
+      "en": "Draw your partner",
+      "zh": "为对方画像"
+    },
+    "tutoriel": {
+      "fr": "Fais un croquis de ton/ta partenaire, même maladroit.",
+      "en": "Sketch your partner, however clumsy.",
+      "zh": "为伴侣画一张速写，哪怕笨拙。"
+    }
+  },
+  {
+    "id": "ls-045",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Relire vos messages",
+      "en": "Reread old messages",
+      "zh": "重读旧消息"
+    },
+    "tutoriel": {
+      "fr": "Relisez vos premiers messages et souriez-en ensemble.",
+      "en": "Reread your first messages and smile together.",
+      "zh": "一起重读你们最初的消息，会心一笑。"
+    }
+  },
+  {
+    "id": "ls-046",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Offrir une fleur",
+      "en": "Offer a flower",
+      "zh": "送一朵花"
+    },
+    "tutoriel": {
+      "fr": "Offre une seule fleur, choisie avec attention.",
+      "en": "Give a single flower, chosen with care.",
+      "zh": "精心挑选，送上一朵花。"
+    }
+  },
+  {
+    "id": "ls-047",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Se raconter la journée",
+      "en": "Share your day",
+      "zh": "分享今天"
+    },
+    "tutoriel": {
+      "fr": "Racontez-vous vraiment votre journée, sans écran.",
+      "en": "Truly share your day, screens away.",
+      "zh": "放下屏幕，认真聊聊彼此的一天。"
+    }
+  },
+  {
+    "id": "ls-048",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Baiser à l'aveugle",
+      "en": "Blindfold kiss",
+      "zh": "蒙眼之吻"
+    },
+    "tutoriel": {
+      "fr": "Bandez les yeux de l'autre et guidez-le par un baiser.",
+      "en": "Blindfold them and guide with a kiss.",
+      "zh": "蒙上对方的眼睛，用吻引导。"
+    }
+  },
+  {
+    "id": "ls-049",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Projet à deux",
+      "en": "A shared project",
+      "zh": "共同的计划"
+    },
+    "tutoriel": {
+      "fr": "Choisissez un petit projet à réaliser ensemble ce mois.",
+      "en": "Pick a small project to do together this month.",
+      "zh": "选一个本月一起完成的小计划。"
+    }
+  },
+  {
+    "id": "ls-050",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Nuit sans réveil",
+      "en": "A slow morning",
+      "zh": "慵懒的清晨"
+    },
+    "tutoriel": {
+      "fr": "Prévoyez une matinée entière sans obligation, au lit.",
+      "en": "Plan a whole slow morning in bed, no duties.",
+      "zh": "安排一个无所事事、赖床的清晨。"
+    }
+  },
+  {
+    "id": "ls-051",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Redire un compliment",
+      "en": "Repeat a compliment",
+      "zh": "再赞美一次"
+    },
+    "tutoriel": {
+      "fr": "Reprends un compliment déjà fait, avec plus de détails.",
+      "en": "Revisit a past compliment with more detail.",
+      "zh": "把之前的赞美再说一遍，更具体些。"
+    }
+  },
+  {
+    "id": "ls-052",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Écrire un poème court",
+      "en": "Write a short poem",
+      "zh": "写一首短诗"
+    },
+    "tutoriel": {
+      "fr": "Écris quatre vers pour la personne aimée.",
+      "en": "Write four lines for the one you love.",
+      "zh": "为所爱的人写下四行诗。"
+    }
+  },
+  {
+    "id": "ls-053",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Regarder le coucher de soleil",
+      "en": "Watch the sunset",
+      "zh": "看日落"
+    },
+    "tutoriel": {
+      "fr": "Regardez le coucher de soleil serrés l'un contre l'autre.",
+      "en": "Watch the sunset held close together.",
+      "zh": "相依相偎，一起看日落。"
+    }
+  },
+  {
+    "id": "ls-054",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Jouer à se séduire",
+      "en": "Play at flirting",
+      "zh": "重拾调情"
+    },
+    "tutoriel": {
+      "fr": "Passez la soirée à vous séduire comme au début.",
+      "en": "Spend the evening flirting like the early days.",
+      "zh": "像热恋初期那样，用一晚彼此调情。"
+    }
+  },
+  {
+    "id": "ls-055",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Planifier un voyage",
+      "en": "Plan a trip",
+      "zh": "规划一次旅行"
+    },
+    "tutoriel": {
+      "fr": "Choisissez ensemble une destination de rêve.",
+      "en": "Choose a dream destination together.",
+      "zh": "一起选一个梦想目的地。"
+    }
+  },
+  {
+    "id": "ls-056",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Redire un compliment",
+      "en": "Repeat a compliment",
+      "zh": "再赞美一次"
+    },
+    "tutoriel": {
+      "fr": "Reprends un compliment déjà fait, avec plus de détails.",
+      "en": "Revisit a past compliment with more detail.",
+      "zh": "把之前的赞美再说一遍，更具体些。"
+    }
+  },
+  {
+    "id": "ls-057",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Écrire un poème court",
+      "en": "Write a short poem",
+      "zh": "写一首短诗"
+    },
+    "tutoriel": {
+      "fr": "Écris quatre vers pour la personne aimée.",
+      "en": "Write four lines for the one you love.",
+      "zh": "为所爱的人写下四行诗。"
+    }
+  },
+  {
+    "id": "ls-058",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Regarder le coucher de soleil",
+      "en": "Watch the sunset",
+      "zh": "看日落"
+    },
+    "tutoriel": {
+      "fr": "Regardez le coucher de soleil serrés l'un contre l'autre.",
+      "en": "Watch the sunset held close together.",
+      "zh": "相依相偎，一起看日落。"
+    }
+  },
+  {
+    "id": "ls-059",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Jouer à se séduire",
+      "en": "Play at flirting",
+      "zh": "重拾调情"
+    },
+    "tutoriel": {
+      "fr": "Passez la soirée à vous séduire comme au début.",
+      "en": "Spend the evening flirting like the early days.",
+      "zh": "像热恋初期那样，用一晚彼此调情。"
+    }
+  },
+  {
+    "id": "ls-060",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Planifier un voyage",
+      "en": "Plan a trip",
+      "zh": "规划一次旅行"
+    },
+    "tutoriel": {
+      "fr": "Choisissez ensemble une destination de rêve.",
+      "en": "Choose a dream destination together.",
+      "zh": "一起选一个梦想目的地。"
+    }
+  },
+  {
+    "id": "ls-061",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Redire un compliment",
+      "en": "Repeat a compliment",
+      "zh": "再赞美一次"
+    },
+    "tutoriel": {
+      "fr": "Reprends un compliment déjà fait, avec plus de détails.",
+      "en": "Revisit a past compliment with more detail.",
+      "zh": "把之前的赞美再说一遍，更具体些。"
+    }
+  },
+  {
+    "id": "ls-062",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Écrire un poème court",
+      "en": "Write a short poem",
+      "zh": "写一首短诗"
+    },
+    "tutoriel": {
+      "fr": "Écris quatre vers pour la personne aimée.",
+      "en": "Write four lines for the one you love.",
+      "zh": "为所爱的人写下四行诗。"
+    }
+  },
+  {
+    "id": "ls-063",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Regarder le coucher de soleil",
+      "en": "Watch the sunset",
+      "zh": "看日落"
+    },
+    "tutoriel": {
+      "fr": "Regardez le coucher de soleil serrés l'un contre l'autre.",
+      "en": "Watch the sunset held close together.",
+      "zh": "相依相偎，一起看日落。"
+    }
+  },
+  {
+    "id": "ls-064",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Jouer à se séduire",
+      "en": "Play at flirting",
+      "zh": "重拾调情"
+    },
+    "tutoriel": {
+      "fr": "Passez la soirée à vous séduire comme au début.",
+      "en": "Spend the evening flirting like the early days.",
+      "zh": "像热恋初期那样，用一晚彼此调情。"
+    }
+  },
+  {
+    "id": "ls-065",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Planifier un voyage",
+      "en": "Plan a trip",
+      "zh": "规划一次旅行"
+    },
+    "tutoriel": {
+      "fr": "Choisissez ensemble une destination de rêve.",
+      "en": "Choose a dream destination together.",
+      "zh": "一起选一个梦想目的地。"
+    }
+  },
+  {
+    "id": "ls-066",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Redire un compliment",
+      "en": "Repeat a compliment",
+      "zh": "再赞美一次"
+    },
+    "tutoriel": {
+      "fr": "Reprends un compliment déjà fait, avec plus de détails.",
+      "en": "Revisit a past compliment with more detail.",
+      "zh": "把之前的赞美再说一遍，更具体些。"
+    }
+  },
+  {
+    "id": "ls-067",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Écrire un poème court",
+      "en": "Write a short poem",
+      "zh": "写一首短诗"
+    },
+    "tutoriel": {
+      "fr": "Écris quatre vers pour la personne aimée.",
+      "en": "Write four lines for the one you love.",
+      "zh": "为所爱的人写下四行诗。"
+    }
+  },
+  {
+    "id": "ls-068",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Regarder le coucher de soleil",
+      "en": "Watch the sunset",
+      "zh": "看日落"
+    },
+    "tutoriel": {
+      "fr": "Regardez le coucher de soleil serrés l'un contre l'autre.",
+      "en": "Watch the sunset held close together.",
+      "zh": "相依相偎，一起看日落。"
+    }
+  },
+  {
+    "id": "ls-069",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Jouer à se séduire",
+      "en": "Play at flirting",
+      "zh": "重拾调情"
+    },
+    "tutoriel": {
+      "fr": "Passez la soirée à vous séduire comme au début.",
+      "en": "Spend the evening flirting like the early days.",
+      "zh": "像热恋初期那样，用一晚彼此调情。"
+    }
+  },
+  {
+    "id": "ls-070",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Planifier un voyage",
+      "en": "Plan a trip",
+      "zh": "规划一次旅行"
+    },
+    "tutoriel": {
+      "fr": "Choisissez ensemble une destination de rêve.",
+      "en": "Choose a dream destination together.",
+      "zh": "一起选一个梦想目的地。"
+    }
+  },
+  {
+    "id": "ls-071",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Redire un compliment",
+      "en": "Repeat a compliment",
+      "zh": "再赞美一次"
+    },
+    "tutoriel": {
+      "fr": "Reprends un compliment déjà fait, avec plus de détails.",
+      "en": "Revisit a past compliment with more detail.",
+      "zh": "把之前的赞美再说一遍，更具体些。"
+    }
+  },
+  {
+    "id": "ls-072",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Écrire un poème court",
+      "en": "Write a short poem",
+      "zh": "写一首短诗"
+    },
+    "tutoriel": {
+      "fr": "Écris quatre vers pour la personne aimée.",
+      "en": "Write four lines for the one you love.",
+      "zh": "为所爱的人写下四行诗。"
+    }
+  },
+  {
+    "id": "ls-073",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Regarder le coucher de soleil",
+      "en": "Watch the sunset",
+      "zh": "看日落"
+    },
+    "tutoriel": {
+      "fr": "Regardez le coucher de soleil serrés l'un contre l'autre.",
+      "en": "Watch the sunset held close together.",
+      "zh": "相依相偎，一起看日落。"
+    }
+  },
+  {
+    "id": "ls-074",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Jouer à se séduire",
+      "en": "Play at flirting",
+      "zh": "重拾调情"
+    },
+    "tutoriel": {
+      "fr": "Passez la soirée à vous séduire comme au début.",
+      "en": "Spend the evening flirting like the early days.",
+      "zh": "像热恋初期那样，用一晚彼此调情。"
+    }
+  },
+  {
+    "id": "ls-075",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Planifier un voyage",
+      "en": "Plan a trip",
+      "zh": "规划一次旅行"
+    },
+    "tutoriel": {
+      "fr": "Choisissez ensemble une destination de rêve.",
+      "en": "Choose a dream destination together.",
+      "zh": "一起选一个梦想目的地。"
+    }
+  },
+  {
+    "id": "ls-076",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Redire un compliment",
+      "en": "Repeat a compliment",
+      "zh": "再赞美一次"
+    },
+    "tutoriel": {
+      "fr": "Reprends un compliment déjà fait, avec plus de détails.",
+      "en": "Revisit a past compliment with more detail.",
+      "zh": "把之前的赞美再说一遍，更具体些。"
+    }
+  },
+  {
+    "id": "ls-077",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Écrire un poème court",
+      "en": "Write a short poem",
+      "zh": "写一首短诗"
+    },
+    "tutoriel": {
+      "fr": "Écris quatre vers pour la personne aimée.",
+      "en": "Write four lines for the one you love.",
+      "zh": "为所爱的人写下四行诗。"
+    }
+  },
+  {
+    "id": "ls-078",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Regarder le coucher de soleil",
+      "en": "Watch the sunset",
+      "zh": "看日落"
+    },
+    "tutoriel": {
+      "fr": "Regardez le coucher de soleil serrés l'un contre l'autre.",
+      "en": "Watch the sunset held close together.",
+      "zh": "相依相偎，一起看日落。"
+    }
+  },
+  {
+    "id": "ls-079",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Jouer à se séduire",
+      "en": "Play at flirting",
+      "zh": "重拾调情"
+    },
+    "tutoriel": {
+      "fr": "Passez la soirée à vous séduire comme au début.",
+      "en": "Spend the evening flirting like the early days.",
+      "zh": "像热恋初期那样，用一晚彼此调情。"
+    }
+  },
+  {
+    "id": "ls-080",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Planifier un voyage",
+      "en": "Plan a trip",
+      "zh": "规划一次旅行"
+    },
+    "tutoriel": {
+      "fr": "Choisissez ensemble une destination de rêve.",
+      "en": "Choose a dream destination together.",
+      "zh": "一起选一个梦想目的地。"
+    }
+  },
+  {
+    "id": "ls-081",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Redire un compliment",
+      "en": "Repeat a compliment",
+      "zh": "再赞美一次"
+    },
+    "tutoriel": {
+      "fr": "Reprends un compliment déjà fait, avec plus de détails.",
+      "en": "Revisit a past compliment with more detail.",
+      "zh": "把之前的赞美再说一遍，更具体些。"
+    }
+  },
+  {
+    "id": "ls-082",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Écrire un poème court",
+      "en": "Write a short poem",
+      "zh": "写一首短诗"
+    },
+    "tutoriel": {
+      "fr": "Écris quatre vers pour la personne aimée.",
+      "en": "Write four lines for the one you love.",
+      "zh": "为所爱的人写下四行诗。"
+    }
+  },
+  {
+    "id": "ls-083",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Regarder le coucher de soleil",
+      "en": "Watch the sunset",
+      "zh": "看日落"
+    },
+    "tutoriel": {
+      "fr": "Regardez le coucher de soleil serrés l'un contre l'autre.",
+      "en": "Watch the sunset held close together.",
+      "zh": "相依相偎，一起看日落。"
+    }
+  },
+  {
+    "id": "ls-084",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Jouer à se séduire",
+      "en": "Play at flirting",
+      "zh": "重拾调情"
+    },
+    "tutoriel": {
+      "fr": "Passez la soirée à vous séduire comme au début.",
+      "en": "Spend the evening flirting like the early days.",
+      "zh": "像热恋初期那样，用一晚彼此调情。"
+    }
+  },
+  {
+    "id": "ls-085",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Planifier un voyage",
+      "en": "Plan a trip",
+      "zh": "规划一次旅行"
+    },
+    "tutoriel": {
+      "fr": "Choisissez ensemble une destination de rêve.",
+      "en": "Choose a dream destination together.",
+      "zh": "一起选一个梦想目的地。"
+    }
+  },
+  {
+    "id": "ls-086",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Redire un compliment",
+      "en": "Repeat a compliment",
+      "zh": "再赞美一次"
+    },
+    "tutoriel": {
+      "fr": "Reprends un compliment déjà fait, avec plus de détails.",
+      "en": "Revisit a past compliment with more detail.",
+      "zh": "把之前的赞美再说一遍，更具体些。"
+    }
+  },
+  {
+    "id": "ls-087",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Écrire un poème court",
+      "en": "Write a short poem",
+      "zh": "写一首短诗"
+    },
+    "tutoriel": {
+      "fr": "Écris quatre vers pour la personne aimée.",
+      "en": "Write four lines for the one you love.",
+      "zh": "为所爱的人写下四行诗。"
+    }
+  },
+  {
+    "id": "ls-088",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Regarder le coucher de soleil",
+      "en": "Watch the sunset",
+      "zh": "看日落"
+    },
+    "tutoriel": {
+      "fr": "Regardez le coucher de soleil serrés l'un contre l'autre.",
+      "en": "Watch the sunset held close together.",
+      "zh": "相依相偎，一起看日落。"
+    }
+  },
+  {
+    "id": "ls-089",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Jouer à se séduire",
+      "en": "Play at flirting",
+      "zh": "重拾调情"
+    },
+    "tutoriel": {
+      "fr": "Passez la soirée à vous séduire comme au début.",
+      "en": "Spend the evening flirting like the early days.",
+      "zh": "像热恋初期那样，用一晚彼此调情。"
+    }
+  },
+  {
+    "id": "ls-090",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Planifier un voyage",
+      "en": "Plan a trip",
+      "zh": "规划一次旅行"
+    },
+    "tutoriel": {
+      "fr": "Choisissez ensemble une destination de rêve.",
+      "en": "Choose a dream destination together.",
+      "zh": "一起选一个梦想目的地。"
+    }
+  },
+  {
+    "id": "ls-091",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Redire un compliment",
+      "en": "Repeat a compliment",
+      "zh": "再赞美一次"
+    },
+    "tutoriel": {
+      "fr": "Reprends un compliment déjà fait, avec plus de détails.",
+      "en": "Revisit a past compliment with more detail.",
+      "zh": "把之前的赞美再说一遍，更具体些。"
+    }
+  },
+  {
+    "id": "ls-092",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Écrire un poème court",
+      "en": "Write a short poem",
+      "zh": "写一首短诗"
+    },
+    "tutoriel": {
+      "fr": "Écris quatre vers pour la personne aimée.",
+      "en": "Write four lines for the one you love.",
+      "zh": "为所爱的人写下四行诗。"
+    }
+  },
+  {
+    "id": "ls-093",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Regarder le coucher de soleil",
+      "en": "Watch the sunset",
+      "zh": "看日落"
+    },
+    "tutoriel": {
+      "fr": "Regardez le coucher de soleil serrés l'un contre l'autre.",
+      "en": "Watch the sunset held close together.",
+      "zh": "相依相偎，一起看日落。"
+    }
+  },
+  {
+    "id": "ls-094",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Jouer à se séduire",
+      "en": "Play at flirting",
+      "zh": "重拾调情"
+    },
+    "tutoriel": {
+      "fr": "Passez la soirée à vous séduire comme au début.",
+      "en": "Spend the evening flirting like the early days.",
+      "zh": "像热恋初期那样，用一晚彼此调情。"
+    }
+  },
+  {
+    "id": "ls-095",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Planifier un voyage",
+      "en": "Plan a trip",
+      "zh": "规划一次旅行"
+    },
+    "tutoriel": {
+      "fr": "Choisissez ensemble une destination de rêve.",
+      "en": "Choose a dream destination together.",
+      "zh": "一起选一个梦想目的地。"
+    }
+  },
+  {
+    "id": "ls-096",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Redire un compliment",
+      "en": "Repeat a compliment",
+      "zh": "再赞美一次"
+    },
+    "tutoriel": {
+      "fr": "Reprends un compliment déjà fait, avec plus de détails.",
+      "en": "Revisit a past compliment with more detail.",
+      "zh": "把之前的赞美再说一遍，更具体些。"
+    }
+  },
+  {
+    "id": "ls-097",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Écrire un poème court",
+      "en": "Write a short poem",
+      "zh": "写一首短诗"
+    },
+    "tutoriel": {
+      "fr": "Écris quatre vers pour la personne aimée.",
+      "en": "Write four lines for the one you love.",
+      "zh": "为所爱的人写下四行诗。"
+    }
+  },
+  {
+    "id": "ls-098",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Regarder le coucher de soleil",
+      "en": "Watch the sunset",
+      "zh": "看日落"
+    },
+    "tutoriel": {
+      "fr": "Regardez le coucher de soleil serrés l'un contre l'autre.",
+      "en": "Watch the sunset held close together.",
+      "zh": "相依相偎，一起看日落。"
+    }
+  },
+  {
+    "id": "ls-099",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Jouer à se séduire",
+      "en": "Play at flirting",
+      "zh": "重拾调情"
+    },
+    "tutoriel": {
+      "fr": "Passez la soirée à vous séduire comme au début.",
+      "en": "Spend the evening flirting like the early days.",
+      "zh": "像热恋初期那样，用一晚彼此调情。"
+    }
+  },
+  {
+    "id": "ls-100",
+    "domaine": "love_sex",
+    "titre": {
+      "fr": "Planifier un voyage",
+      "en": "Plan a trip",
+      "zh": "规划一次旅行"
+    },
+    "tutoriel": {
+      "fr": "Choisissez ensemble une destination de rêve.",
+      "en": "Choose a dream destination together.",
+      "zh": "一起选一个梦想目的地。"
+    }
   }
 ];
-
-export default activitiesData;
