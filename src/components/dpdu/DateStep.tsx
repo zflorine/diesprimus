@@ -25,15 +25,14 @@ export function DateStep({ date, onGo }: { date: string; onGo: (iso: string) => 
 
   return (
     <div className="mx-auto flex max-w-xl flex-col items-center px-6 py-20 text-center">
-      <p className="text-[11px] uppercase tracking-[0.35em] text-muted-foreground">
-        {t.pickDate}
-      </p>
-      <h1 className="mt-8 font-serif text-5xl leading-tight text-foreground sm:text-6xl">
+      <h1 className="font-display uppercase tracking-[0.15em] text-4xl leading-tight text-foreground sm:text-5xl">
         {t.appTitle}
       </h1>
-      <p className="mt-6 max-w-md text-sm leading-relaxed text-muted-foreground">{t.tagline}</p>
 
-      <div className="mt-12 w-full max-w-xs">
+      <div className="mt-16 w-full max-w-xs">
+        <p className="mb-4 text-[11px] uppercase tracking-[0.35em] text-muted-foreground">
+          {t.pickDate}
+        </p>
         <Popover open={open} onOpenChange={setOpen}>
           <PopoverTrigger asChild>
             <Button
