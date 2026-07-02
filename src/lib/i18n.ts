@@ -24,11 +24,11 @@ export const DOMAIN_ORDER: DomainKey[] = [
 ];
 
 export const DOMAIN_COLORS: Record<DomainKey, string> = {
-  creation_expression: "#b87333",
+  creation_expression: "#cca47a",
   esprit_connaissance: "#9b8fd6",
   sciences_technique: "#8fb4e5",
   corps_exploration: "#8fca9e",
-  love_sex: "#ec4899",
+  love_sex: "#e8a6c4",
 };
 
 type Dict = {
@@ -58,6 +58,7 @@ type Dict = {
   downloadChart: string;
   reportEmpty: string;
   reportYAxis: string;
+  selectYear: string;
   validatedActivities: string;
   newDay: string;
   domains: Record<DomainKey, string>;
@@ -92,6 +93,7 @@ export const T: Record<Lang, Dict> = {
     downloadChart: "Télécharger mon graph",
     reportEmpty: "Pas encore assez de données pour un rapport.",
     reportYAxis: "Activités validées",
+    selectYear: "Année",
     validatedActivities: "activités validées",
     newDay: "Nouvelle journée",
     domains: {
@@ -130,6 +132,7 @@ export const T: Record<Lang, Dict> = {
     downloadChart: "Download my chart",
     reportEmpty: "Not enough data yet for a report.",
     reportYAxis: "Validated activities",
+    selectYear: "Year",
     validatedActivities: "validated activities",
     newDay: "New day",
     domains: {
@@ -168,6 +171,7 @@ export const T: Record<Lang, Dict> = {
     downloadChart: "下载图表",
     reportEmpty: "数据还不足以生成报告。",
     reportYAxis: "已完成的活动",
+    selectYear: "年份",
     validatedActivities: "项已完成活动",
     newDay: "新的一天",
     domains: {
