@@ -24,11 +24,11 @@ export const DOMAIN_ORDER: DomainKey[] = [
 ];
 
 export const DOMAIN_COLORS: Record<DomainKey, string> = {
-  creation_expression: "#e59ab8",
+  creation_expression: "#b87333",
   esprit_connaissance: "#9b8fd6",
   sciences_technique: "#8fb4e5",
   corps_exploration: "#8fca9e",
-  love_sex: "#e0757f",
+  love_sex: "#ec4899",
 };
 
 type Dict = {
