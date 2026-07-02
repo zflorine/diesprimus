@@ -185,8 +185,7 @@ function App() {
           <LangSwitcher />
         </div>
         {/* Mobile burger */}
-        <div className="flex items-center gap-4 md:hidden">
-          <LangSwitcher />
+        <div className="flex items-center md:hidden">
           <Sheet open={menuOpen} onOpenChange={setMenuOpen}>
             <SheetTrigger aria-label="Menu" className="text-foreground">
               <Menu className="h-5 w-5" />
@@ -209,6 +208,8 @@ function App() {
                   </button>
                 ))}
               </nav>
+              <Separator className="my-6" />
+              <LangSwitcher />
             </SheetContent>
           </Sheet>
         </div>
