@@ -149,7 +149,7 @@ function App() {
       <header className="flex items-center justify-between border-b border-foreground/10 px-6 py-4">
         <button
           onClick={() => setTab("today")}
-          className="font-serif text-sm tracking-wide text-foreground"
+          className="font-display uppercase text-sm tracking-[0.15em] text-foreground"
         >
           {t.appTitle}
         </button>
