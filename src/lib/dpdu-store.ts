@@ -151,21 +151,30 @@ export function getReportYears(): number[] {
   return [...years].sort((a, b) => b - a);
 }
 
-/** Count of "done" activities per domain per month (Jan–Dec) for a given calendar year. */
+/** Count of "done" activities per domain per month (Jan–Dec) for a given calendar year.
+ *  For the current year, months after the current one are set to `null` so that
+ *  the chart lines stop at the current month instead of continuing flat to the right. */
 export function buildAnnualReport(year?: number) {
   const target = year ?? new Date().getFullYear();
+  const now = new Date();
+  const currentYear = now.getFullYear();
+  const currentMonth = now.getMonth();
   const history = getHistory().filter((e) => e.status === "done");
 
   const rows = Array.from({ length: 12 }, (_, month) => {
-    const row: Record<string, number | string> = { month, year: target };
-    for (const dom of DOMAIN_ORDER) row[dom] = 0;
+    const row: Record<string, number | string | null> = { month, year: target };
+    for (const dom of DOMAIN_ORDER) {
+      row[dom] = target === currentYear && month > currentMonth ? null : 0;
+    }
     return row;
   });
 
   for (const e of history) {
     const d = new Date(e.date + "T00:00:00");
     if (d.getFullYear() !== target) continue;
-    rows[d.getMonth()][e.domaine] = (rows[d.getMonth()][e.domaine] as number) + 1;
+    const month = d.getMonth();
+    if (target === currentYear && month > currentMonth) continue;
+    rows[month][e.domaine] = (rows[month][e.domaine] as number) + 1;
   }
   return rows;
 }
