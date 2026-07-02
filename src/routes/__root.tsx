@@ -77,14 +77,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Dies primus dies ultimus — une activité par jour" },
+      { title: "Dies Primus | Défis quotidens pour explorer votre Pote" },
       {
         name: "description",
         content:
           "Une seule activité par jour, tirée d'un pool de 400 idées, comme si c'était le premier et le dernier jour. Historique, cooldown et rapport annuel.",
       },
       { name: "author", content: "Dies primus dies ultimus" },
-      { property: "og:title", content: "Dies primus dies ultimus — une activité par jour" },
+      { property: "og:title", content: "Dies Primus | Défis quotidens pour explorer votre Pote" },
       {
         property: "og:description",
         content: "Une activité par jour parmi 400 idées. Minimaliste, multilingue, hors-ligne.",
@@ -92,10 +92,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
-      { name: "twitter:title", content: "Dies primus dies ultimus — une activité par jour" },
-      { name: "description", content: "Daily Bloom is a web app that suggests daily activities across four domains to foster personal growth." },
-      { property: "og:description", content: "Daily Bloom is a web app that suggests daily activities across four domains to foster personal growth." },
-      { name: "twitter:description", content: "Daily Bloom is a web app that suggests daily activities across four domains to foster personal growth." },
+      { name: "twitter:title", content: "Dies Primus | Défis quotidens pour explorer votre Pote" },
+      { name: "description", content: "Transformez votre quotidien avec Dies Primus. Explorez des centaines d'activités et défis : sciences, créativité, corps, esprit et relations." },
+      { property: "og:description", content: "Transformez votre quotidien avec Dies Primus. Explorez des centaines d'activités et défis : sciences, créativité, corps, esprit et relations." },
+      { name: "twitter:description", content: "Transformez votre quotidien avec Dies Primus. Explorez des centaines d'activités et défis : sciences, créativité, corps, esprit et relations." },
       { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0fd8ff71-e938-4163-80d9-9664d91833b4/id-preview-60d47b56--d69904f8-e3bb-49ba-b1d1-be2a8714cecc.lovable.app-1783005739805.png" },
       { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0fd8ff71-e938-4163-80d9-9664d91833b4/id-preview-60d47b56--d69904f8-e3bb-49ba-b1d1-be2a8714cecc.lovable.app-1783005739805.png" },
     ],
