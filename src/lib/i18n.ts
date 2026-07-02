@@ -76,7 +76,7 @@ export const T: Record<Lang, Dict> = {
     letsGo: "Let's go !",
     regenerate: "Regénérer les idées",
     chooseOne: "Choisis une seule activité",
-    chooseHint: "Deux propositions par domaine. Dès que tu en choisis une, l'autre disparaît.",
+    chooseHint: "Choisis une activité parmi les dix propositions.",
     done: "C'est fait",
     failed: "Je n'ai pas pu le faire",
     yourActivity: "Ton activité du jour",
