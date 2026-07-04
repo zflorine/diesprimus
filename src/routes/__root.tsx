@@ -93,11 +93,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
       { name: "twitter:title", content: "Dies Primus | Défis quotidens pour explorer votre Pote" },
-      { name: "description", content: "Transformez votre quotidien avec Dies Primus. Explorez des centaines d'activités et défis : sciences, créativité, corps, esprit et relations." },
-      { property: "og:description", content: "Transformez votre quotidien avec Dies Primus. Explorez des centaines d'activités et défis : sciences, créativité, corps, esprit et relations." },
-      { name: "twitter:description", content: "Transformez votre quotidien avec Dies Primus. Explorez des centaines d'activités et défis : sciences, créativité, corps, esprit et relations." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0fd8ff71-e938-4163-80d9-9664d91833b4/id-preview-60d47b56--d69904f8-e3bb-49ba-b1d1-be2a8714cecc.lovable.app-1783005739805.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0fd8ff71-e938-4163-80d9-9664d91833b4/id-preview-60d47b56--d69904f8-e3bb-49ba-b1d1-be2a8714cecc.lovable.app-1783005739805.png" },
+      { name: "description", content: "Chaque jour, des idées d'activités originales en un clic. Choisissez-en une, vivez l'expérience, et retrouvez un rapport qui retrace vos aventure." },
+      { property: "og:description", content: "Chaque jour, des idées d'activités originales en un clic. Choisissez-en une, vivez l'expérience, et retrouvez un rapport qui retrace vos aventure." },
+      { name: "twitter:description", content: "Chaque jour, des idées d'activités originales en un clic. Choisissez-en une, vivez l'expérience, et retrouvez un rapport qui retrace vos aventure." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/Yro5hi1ZsUfkERnlpbjaxtNacYd2/social-images/social-1783150026352-Capture_d’écran_2026-07-03_à_08.44.34.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/Yro5hi1ZsUfkERnlpbjaxtNacYd2/social-images/social-1783150026352-Capture_d’écran_2026-07-03_à_08.44.34.webp" },
     ],
     links: [
       {
