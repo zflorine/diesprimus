@@ -1,0 +1,13 @@
+# Dies Primus
+
+> One daily activity picked from a pool of 400 ideas, as if it were your first and last day. A minimalist, multilingual, offline-friendly companion for couples and friends.
+
+Dies Primus is a single-page web experience. Each day you receive ten fresh activity proposals spanning creativity, nature, cooking, wellness, culture, and relationships. You pick one, live the moment, and the app keeps a private history with an annual visual report. Everything runs in the browser, so no account is required and the data stays on your device.
+
+## Pages
+
+- [/](/): Start the daily challenge, pick an activity, view history, or open the annual report.
+
+## Optional
+
+- [/sitemap.xml](/sitemap.xml): Machine-readable list of public routes for search engines.
