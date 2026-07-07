@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://diesprimus.lovable.app/sitemap.xml
