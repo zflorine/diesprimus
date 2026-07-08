@@ -38,6 +38,9 @@ import { cn } from "@/lib/utils";
 
 export const Route = createFileRoute("/")({
   component: Index,
+  head: () => ({
+    links: [{ rel: "canonical", href: "https://diesprimus.lovable.app/" }],
+  }),
 });
 
 type Tab = "today" | "history" | "report";
