@@ -77,23 +77,24 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Dies Primus | Défis quotidiens pour explorer votre Pote" },
+      { title: "Dies Primus | Défis quotidiens pour explorer votre relation" },
       {
         name: "description",
         content:
           "Une seule activité par jour, tirée d'un pool de 400 idées, comme si c'était le premier et le dernier jour. Historique, cooldown et rapport annuel.",
       },
       { name: "author", content: "Dies primus dies ultimus" },
-      { property: "og:title", content: "Dies Primus | Défis quotidiens pour explorer votre Pote" },
+      { property: "og:title", content: "Dies Primus | Défis quotidiens pour explorer votre relation" },
       {
         property: "og:description",
         content:
           "Une seule activité par jour, tirée d'un pool de 400 idées, comme si c'était le premier et le dernier jour. Historique, cooldown et rapport annuel.",
       },
       { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://diesprimus.lovable.app/" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
-      { name: "twitter:title", content: "Dies Primus | Défis quotidiens pour explorer votre Pote" },
+      { name: "twitter:title", content: "Dies Primus | Défis quotidiens pour explorer votre relation" },
       {
         name: "twitter:description",
         content:
