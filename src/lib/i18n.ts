@@ -61,6 +61,8 @@ type Dict = {
   selectYear: string;
   validatedActivities: string;
   newDay: string;
+  homeAriaLabel: string;
+  menuAriaLabel: string;
   domains: Record<DomainKey, string>;
   months: string[];
 };
@@ -96,6 +98,8 @@ export const T: Record<Lang, Dict> = {
     selectYear: "Année",
     validatedActivities: "activités validées",
     newDay: "Nouvelle journée",
+    homeAriaLabel: "Dies primus dies ultimus — Retour à l'accueil",
+    menuAriaLabel: "Ouvrir le menu de navigation",
     domains: {
       creation_expression: "Création & Expression",
       esprit_connaissance: "Esprit & Connaissance",
@@ -135,6 +139,8 @@ export const T: Record<Lang, Dict> = {
     selectYear: "Year",
     validatedActivities: "validated activities",
     newDay: "New day",
+    homeAriaLabel: "Dies primus dies ultimus — Go to home",
+    menuAriaLabel: "Open navigation menu",
     domains: {
       creation_expression: "Creation & Expression",
       esprit_connaissance: "Mind & Knowledge",
@@ -174,6 +180,8 @@ export const T: Record<Lang, Dict> = {
     selectYear: "年份",
     validatedActivities: "项已完成活动",
     newDay: "新的一天",
+    homeAriaLabel: "Dies primus dies ultimus — 返回首页",
+    menuAriaLabel: "打开导航菜单",
     domains: {
       creation_expression: "创作与表达",
       esprit_connaissance: "心智与知识",

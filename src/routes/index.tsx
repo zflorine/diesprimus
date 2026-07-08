@@ -161,6 +161,7 @@ function App() {
       <header className="flex items-center justify-between border-b border-foreground/10 px-6 py-4">
         <button
           onClick={() => setTab("today")}
+          aria-label={t.homeAriaLabel}
           className="font-display uppercase text-sm tracking-[0.15em] text-foreground"
         >
           {t.appTitle}
@@ -172,6 +173,7 @@ function App() {
               <button
                 key={tb}
                 onClick={() => setTab(tb)}
+                aria-current={tab === tb ? "page" : undefined}
                 className={cn(
                   "transition-colors",
                   tab === tb ? "text-foreground" : "text-muted-foreground hover:text-foreground",
@@ -187,7 +189,7 @@ function App() {
         {/* Mobile burger */}
         <div className="flex items-center md:hidden">
           <Sheet open={menuOpen} onOpenChange={setMenuOpen}>
-            <SheetTrigger aria-label="Menu" className="text-foreground">
+            <SheetTrigger aria-label={t.menuAriaLabel} className="text-foreground">
               <Menu className="h-5 w-5" />
             </SheetTrigger>
             <SheetContent side="right" className="w-64">
@@ -199,6 +201,7 @@ function App() {
                       setTab(tb);
                       setMenuOpen(false);
                     }}
+                    aria-current={tab === tb ? "page" : undefined}
                     className={cn(
                       "text-left transition-colors",
                       tab === tb ? "text-foreground" : "text-muted-foreground hover:text-foreground",
