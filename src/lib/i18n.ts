@@ -61,6 +61,8 @@ type Dict = {
   selectYear: string;
   validatedActivities: string;
   newDay: string;
+  homeAriaLabel: string;
+  menuAriaLabel: string;
   domains: Record<DomainKey, string>;
   months: string[];
 };
