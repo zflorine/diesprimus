@@ -173,6 +173,7 @@ function App() {
               <button
                 key={tb}
                 onClick={() => setTab(tb)}
+                aria-current={tab === tb ? "page" : undefined}
                 className={cn(
                   "transition-colors",
                   tab === tb ? "text-foreground" : "text-muted-foreground hover:text-foreground",
@@ -200,6 +201,7 @@ function App() {
                       setTab(tb);
                       setMenuOpen(false);
                     }}
+                    aria-current={tab === tb ? "page" : undefined}
                     className={cn(
                       "text-left transition-colors",
                       tab === tb ? "text-foreground" : "text-muted-foreground hover:text-foreground",
