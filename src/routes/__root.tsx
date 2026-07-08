@@ -77,25 +77,28 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Dies Primus | Défis quotidens pour explorer votre Pote" },
+      { title: "Dies Primus | Défis quotidiens pour explorer votre Pote" },
       {
         name: "description",
         content:
           "Une seule activité par jour, tirée d'un pool de 400 idées, comme si c'était le premier et le dernier jour. Historique, cooldown et rapport annuel.",
       },
       { name: "author", content: "Dies primus dies ultimus" },
-      { property: "og:title", content: "Dies Primus | Défis quotidens pour explorer votre Pote" },
+      { property: "og:title", content: "Dies Primus | Défis quotidiens pour explorer votre Pote" },
       {
         property: "og:description",
-        content: "Une activité par jour parmi 400 idées. Minimaliste, multilingue, hors-ligne.",
+        content:
+          "Une seule activité par jour, tirée d'un pool de 400 idées, comme si c'était le premier et le dernier jour. Historique, cooldown et rapport annuel.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
-      { name: "twitter:title", content: "Dies Primus | Défis quotidens pour explorer votre Pote" },
-      { name: "description", content: "Chaque jour, des idées d'activités originales en un clic. Choisissez-en une, vivez l'expérience, et retrouvez un rapport qui retrace vos aventure." },
-      { property: "og:description", content: "Chaque jour, des idées d'activités originales en un clic. Choisissez-en une, vivez l'expérience, et retrouvez un rapport qui retrace vos aventure." },
-      { name: "twitter:description", content: "Chaque jour, des idées d'activités originales en un clic. Choisissez-en une, vivez l'expérience, et retrouvez un rapport qui retrace vos aventure." },
+      { name: "twitter:title", content: "Dies Primus | Défis quotidiens pour explorer votre Pote" },
+      {
+        name: "twitter:description",
+        content:
+          "Une seule activité par jour, tirée d'un pool de 400 idées, comme si c'était le premier et le dernier jour. Historique, cooldown et rapport annuel.",
+      },
       { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/Yro5hi1ZsUfkERnlpbjaxtNacYd2/social-images/social-1783150026352-Capture_d’écran_2026-07-03_à_08.44.34.webp" },
       { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/Yro5hi1ZsUfkERnlpbjaxtNacYd2/social-images/social-1783150026352-Capture_d’écran_2026-07-03_à_08.44.34.webp" },
     ],
