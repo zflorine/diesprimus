@@ -30,6 +30,9 @@ export function DateStep({ date, onGo }: { date: string; onGo: (iso: string) => 
       </h1>
 
       <div className="mt-16 w-full max-w-xs">
+        <p className="mb-6 text-sm leading-relaxed text-foreground/80">
+          {t.dateSubtitle}
+        </p>
         <p className="mb-4 text-[11px] uppercase tracking-[0.35em] text-muted-foreground">
           {t.pickDate}
         </p>
