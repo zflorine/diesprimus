@@ -38,6 +38,7 @@ type Dict = {
   navHistory: string;
   navReport: string;
   pickDate: string;
+  dateSubtitle: string;
   letsGo: string;
   regenerate: string;
   chooseOne: string;
