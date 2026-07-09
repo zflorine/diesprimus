@@ -110,6 +110,31 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
     ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebSite",
+              name: "Dies Primus",
+              url: "https://diesprimus.lovable.app/",
+              description:
+                "Une seule activité par jour, tirée d'un pool de 500 idées, comme si c'était le premier et le dernier jour.",
+            },
+            {
+              "@type": "SoftwareApplication",
+              name: "Dies Primus",
+              applicationCategory: "LifestyleApplication",
+              operatingSystem: "Any",
+              description:
+                "Application de défis quotidiens offrant 500 activités trilingues pour explorer sa relation, son corps, son esprit, la création et les sciences.",
+            },
+          ],
+        }),
+      },
+    ],
   }),
   shellComponent: RootShell,
   component: RootComponent,
